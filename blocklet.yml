@@ -1,0 +1,39 @@
+name: z2qaH59KLx7WypnVTG87BLYm55TVm6GEnobjA
+description: Blocklet Project
+group: static
+main: .
+author:
+  name: root
+specVersion: 1.2.8
+title: HiGames
+files:
+  - blocklet.md
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+did: z2qaH59KLx7WypnVTG87BLYm55TVm6GEnobjA
+version: 1.0.0
+logo: logo.png
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: '>=1.7.0'
+  os: '*'
+  cpu: '*'
+  nodejs: '*'
+environments: []
+capabilities: {}
+screenshots: []
+components: []
